@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arbutus Slab', serif;
+    background: url(https://cdn1.thr.com/sites/default/files/imagecache/scale_crop_768_433/2015/05/gallerychar_1900x900_justiceleague_52ab8e54d0a6f0.42170553.jpg);
+}
+
+.content {
+	background-color: white;
+	width: 75%;
+	max-width: 900px;
+	min-height: 100px;
+	box-shadow: 5px 5px 9px #333;
+	margin-left: 250px;
+	margin-top: auto;
+	padding: auto;
+}
+
+#quiz {
+    display:none;
+	margin-top: 90px;
+	font-size: x-large;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 10px;
+	font-size: smaller;
+}
+
+input[type="radio"] {
+	margin-right: 15px;
+}
+button {
+	position: relative;
+    float:right;
+	margin-left: 5px;
+	margin-top: 15px;
+}
+
+#prev {
+    display:none;
+}
+
+#start {
+    display:none;
+    width: 90px;
+}
+
+#warning {
+	color: #800000;
+	font-weight: bold;
+	margin-top: 25px;
+}
+
+@media(max-width: 900px){
+	#start {
+		margin-left: 25px;
+	}
+}
